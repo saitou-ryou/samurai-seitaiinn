@@ -1,0 +1,45 @@
+main {
+  z-index: 100;
+}
+
+span {
+  font-size: 12px;
+}
+
+.pain li {
+  padding-right: 20px;
+}
+
+.down li {
+  padding-right: 20px;
+}
+
+.position {
+  position: relative;
+}
+.position .greenwavebefore {
+  position: absolute;
+  opacity: 50%;
+  z-index: 1;
+}
+.position .greenwave {
+  position: absolute;
+  top: 10px;
+  color: red;
+  z-index: 2;
+}
+.position .background {
+  background-color: #F0F5E1;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  z-index: 3;
+}
+.position footer {
+  position: absolute;
+  z-index: 4;
+}
+
+footer {
+  background-color: #468459;
+}/*# sourceMappingURL=style.css.map */
